@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Only Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="gallery-container">
+    <!-- Large Image Display -->
+    <div class="large-image-container">
+        <input type="radio" id="img1" name="gallery" checked>
+        <input type="radio" id="img2" name="gallery">
+        <input type="radio" id="img3" name="gallery">
+        <input type="radio" id="img4" name="gallery">
+
+        <div >
+            <img src="assets/Me.jpeg" class="display-img img1">
+            <img src="assets/Me2.jpeg" class="display-img img2">
+            <img src="assets/Me3.jpeg" class="display-img img3">
+            <img src="assets/Me4.jpeg" class="display-img img4">
+    </div>
+    </div>
+
+    <!-- Thumbnails -->
+    <div class="thumbnails">
+        <label for="img1"><img src="assets/Me.jpeg" class="thumbnail"></label>
+        <label for="img2"><img src="assets/Me2.jpeg" class="thumbnail"></label>
+        <label for="img3"><img src="assets/Me3.jpeg" class="thumbnail"></label>
+        <label for="img4"><img src="assets/Me4.jpeg" class="thumbnail"></label>
+    </div>
+</div>
+
+</body>
+</html>
